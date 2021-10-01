@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- CSS only -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css" />
+    <title>Carrinho de Compras</title>
+  </head>
+  
+  <body>
+    <header class="header">
+      <div class="header_search">
+        <img src="57589.png" alt="logo" srcset="" width="60" class="logo">
+        <h1>SHOPPING-CART</h1>
+        <input type="text" class="square" id="square2" max="20" placeholder="Buscar produtos, marcas e muito mais">
+        <i class='bx bx-search'></i>
+      </div>
+      <div class="icons_header">
+        <nav class="options">
+          <div class="icons_header-1"><i class='bx bx-location-plus'></i></div>
+          <p class="gps">Enviar para Rua Silvia P ...</p>
+          <p class="ofertas"><br>Ofertas do dia</p>
+          <p class="historic"><br>Histórico</p>
+        <p class="sell"><br>Vender</p>
+        <p class="contact"><br>Contato</p>
+        <div class="icons_header-2"><i class='bx bx-shopping-bag'></i></div>
+        <div class="icons_header-3"><i class='bx bx-chat'></i></div>
+      </nav>
+    </div>
+  </header>
+  <section class="container">
+    <section class="items"></section>
+    <section class="cart">
+      <div class="icons_header-4"><i class='bx bx-cart'></i>
+      <span class="cart__title">Carrinho de compras</span>
+    </div>
+      <h3 class="loading">loading</h3>
+      <ol class="cart__items"></ol>
+      <div class="price_total">
+        <p class="price"><b>Total: R$</b></p> 
+        <span class="total-price">0</span> <!-- 7 - Adicione um texto de "loading" durante uma requisição à API -->
+        <button class="empty-cart">Esvaziar carrinho</button>
+      </div>
+    </section>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
